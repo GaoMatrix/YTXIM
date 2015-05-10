@@ -19,14 +19,14 @@
     android:paddingTop="12dip" >
 
 
-    <com.speedtong.example.common.base.CCPFormInputView
+    <com.gao.im.common.base.CCPFormInputView
         android:id="@+id/login_account_auto"
         style="@style/CCPFormInputView"
         form:form_hint="@string/login_account_hint"
         form:form_layout="@layout/ccp_form_input_clear_et_view"
          />
 
-    <com.speedtong.example.common.base.CCPFormInputView
+    <com.gao.im.common.base.CCPFormInputView
         android:id="@+id/login_password_et"
         style="@style/CCPFormInputView"
         form:form_hint="@string/login_password_hint"

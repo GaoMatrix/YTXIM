@@ -18,7 +18,7 @@
         android:drawableLeft="@drawable/log_accounts_icon"
         style="@style/CCPFormInputTitleTextView" />
 
-    <com.speedtong.example.common.base.CCPClearEditText
+    <com.gao.im.common.base.CCPClearEditText
         android:id="@id/edittext"
         style="@style/CCPFormInputEditText" />
 

@@ -106,7 +106,7 @@
                 android:layout_weight="1.0"
                 android:orientation="vertical" >
 
-                <com.speedtong.example.common.base.CCPTextView
+                <com.gao.im.common.base.CCPTextView
                     android:id="@+id/last_msg_tv"
                     style="@style/CCPFontTipInList"
                     android:layout_width="fill_parent"

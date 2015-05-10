@@ -11,7 +11,7 @@
    in the file PATENTS.  All contributing project authors may
    be found in the AUTHORS file in the root of the source tree.
  -->
-<com.speedtong.example.common.view.TopBarView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.gao.im.common.view.TopBarView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/topbar"
     android:layout_width="match_parent"
     android:layout_height="@dimen/topbar_height"

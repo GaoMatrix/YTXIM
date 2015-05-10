@@ -27,7 +27,7 @@
         android:layout_toRightOf="@+id/chatting_avatar_mask"
         android:visibility="gone" />
 
-    <com.speedtong.example.ui.chatting.view.CCPAnimImageView
+    <com.gao.im.ui.chatting.view.CCPAnimImageView
         android:id="@+id/chatting_voice_loading"
         android:layout_width="100.0dip"
         android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             android:drawableLeft="@drawable/chatfrom_voice_playing"
             android:minHeight="@dimen/ChattingContentMinHeight" />
 
-        <com.speedtong.example.ui.chatting.view.CCPAnimImageView
+        <com.gao.im.ui.chatting.view.CCPAnimImageView
             android:id="@+id/chatting_voice_anim"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"

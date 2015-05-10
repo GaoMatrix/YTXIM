@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"/>
 
-            <com.speedtong.example.common.base.CCPTextView
+            <com.gao.im.common.base.CCPTextView
                 android:id="@+id/chatting_content_itv"
                 style="@style/ChattingUIText"
                 android:layout_width="wrap_content"

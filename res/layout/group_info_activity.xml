@@ -11,7 +11,7 @@
      in the file PATENTS.  All contributing project authors may
      be found in the AUTHORS file in the root of the source tree.-->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ecdemo="http://schemas.android.com/apk/res/com.speedtong.example"
+    xmlns:ecdemo="http://schemas.android.com/apk/res/com.gao.im"
     style="@style/NavPage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -62,7 +62,7 @@
             android:scrollbars="none"
             android:transcriptMode="disabled" />
         
-        <com.speedtong.example.common.view.SettingItem
+        <com.gao.im.common.view.SettingItem
             android:id="@+id/clear_msg"
             style="@style/settings_item_layout_single"
             android:layout_marginTop="@dimen/SmallListHeight"

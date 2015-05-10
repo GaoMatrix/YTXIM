@@ -20,7 +20,7 @@
         style="@style/CCPBody"
         android:paddingTop="10.0dip" >
 
-        <com.speedtong.example.common.base.CCPClearEditText
+        <com.gao.im.common.base.CCPClearEditText
             android:id="@+id/group_name"
             style="@style/CCPLineEditText"
             android:layout_marginTop="@dimen/NormalPadding"
@@ -31,9 +31,9 @@
             android:singleLine="true" >
 
             <requestFocus />
-        </com.speedtong.example.common.base.CCPClearEditText>
+        </com.gao.im.common.base.CCPClearEditText>
 
-        <com.speedtong.example.common.base.CCPClearEditText
+        <com.gao.im.common.base.CCPClearEditText
             android:id="@+id/group_notice"
             style="@style/CCPLineEditText"
             android:layout_marginTop="@dimen/NormalPadding"

@@ -69,7 +69,7 @@
             android:drawableRight="@drawable/chatto_voice_playing"
             android:minHeight="@dimen/ChattingContentMinHeight" />
 
-        <com.speedtong.example.ui.chatting.view.CCPAnimImageView
+        <com.gao.im.ui.chatting.view.CCPAnimImageView
             android:id="@+id/chatting_voice_anim"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"

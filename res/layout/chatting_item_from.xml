@@ -27,7 +27,7 @@
             style="@style/ChattingUISenderText"
             android:visibility="gone" />
 
-        <com.speedtong.example.common.base.CCPTextView
+        <com.gao.im.common.base.CCPTextView
             android:id="@+id/chatting_content_itv"
             style="@style/ChattingUIText"
             android:background="@drawable/chatfrom_bg"

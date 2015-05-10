@@ -11,7 +11,7 @@
    in the file PATENTS.  All contributing project authors may
    be found in the AUTHORS file in the root of the source tree.
  -->
-<com.speedtong.example.ui.chatting.view.CCPMaskLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.gao.im.ui.chatting.view.CCPMaskLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/chatting_avatar_mask"
     style="@style/ChattingUIAvatarMaskFrom"
     android:focusable="false" >
@@ -24,4 +24,4 @@
         android:layout_marginRight="0.0dip"
         android:focusable="false" />
 
-</com.speedtong.example.ui.chatting.view.CCPMaskLayout>
+</com.gao.im.ui.chatting.view.CCPMaskLayout>

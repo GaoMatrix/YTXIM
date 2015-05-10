@@ -49,7 +49,7 @@
             android:gravity="bottom"
             android:orientation="horizontal" >
 
-            <com.speedtong.example.common.base.CCPEditText
+            <com.gao.im.common.base.CCPEditText
                 android:id="@+id/chatting_content_et"
                 style="@style/CCPEditText"
                 android:layout_weight="1.0"
@@ -148,7 +148,7 @@
         android:orientation="horizontal"
         android:visibility="gone" >
 
-        <com.speedtong.example.ui.chatting.view.AppPanel
+        <com.gao.im.ui.chatting.view.AppPanel
             android:id="@+id/chatting_app_panel"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />

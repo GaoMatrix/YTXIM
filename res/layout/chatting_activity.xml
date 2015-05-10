@@ -24,7 +24,7 @@
         android:layout_width="fill_parent"
         android:layout_height="0.0dip"
         android:layout_weight="1.0" >
-        <com.speedtong.example.common.view.RefreshableView
+        <com.gao.im.common.view.RefreshableView
             android:id="@+id/chatting_pull_down_view"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" >
@@ -40,11 +40,11 @@
                 android:scrollbarStyle="outsideOverlay"
                 android:scrollbars="vertical"
                 android:scrollingCache="false" />
-        </com.speedtong.example.common.view.RefreshableView>
+        </com.gao.im.common.view.RefreshableView>
 
     </FrameLayout>
 
-    <com.speedtong.example.ui.chatting.view.CCPChattingFooter2
+    <com.gao.im.ui.chatting.view.CCPChattingFooter2
         android:id="@+id/nav_footer"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />

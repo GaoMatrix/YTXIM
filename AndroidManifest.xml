@@ -12,7 +12,7 @@
    be found in the AUTHORS file in the root of the source tree.
  -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.speedtong.example"
+    package="com.gao.im"
     android:versionCode="8"
     android:versionName="4.0.0.2" >
 
@@ -53,7 +53,7 @@
             android:value="ec_im_speedtong" />
 
         <activity
-            android:name="com.speedtong.example.ui.ECLauncherUI"
+            android:name="com.gao.im.ui.ECLauncherUI"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -67,7 +67,7 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name="com.speedtong.example.ui.account.LoginActivity"
+            android:name="com.gao.im.ui.account.LoginActivity"
             android:screenOrientation="portrait"
             android:label="@string/app_name" >
         </activity>
@@ -77,7 +77,7 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.speedtong.example.ui.account.AccountChooseActivity"
+            android:name="com.gao.im.ui.account.AccountChooseActivity"
              android:screenOrientation="portrait"
             android:label="@string/app_name" >
         </activity>

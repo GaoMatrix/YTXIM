@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+   Copyright (c) 2013 The CCP project authors. All Rights Reserved.
+ 
+   Use of this source code is governed by a Beijing Speedtong Information Technology Co.,Ltd license
+   that can be found in the LICENSE file in the root of the web site.
+ 
+    				http://www.yuntongxun.com
+ 
+   An additional intellectual property rights grant can be found
+   in the file PATENTS.  All contributing project authors may
+   be found in the AUTHORS file in the root of the source tree.
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:form="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="12dip" >
+
+
+    <com.speedtong.example.common.base.CCPFormInputView
+        android:id="@+id/login_account_auto"
+        style="@style/CCPFormInputView"
+        form:form_hint="@string/login_account_hint"
+        form:form_layout="@layout/ccp_form_input_clear_et_view"
+         />
+
+    <com.speedtong.example.common.base.CCPFormInputView
+        android:id="@+id/login_password_et"
+        style="@style/CCPFormInputView"
+        form:form_hint="@string/login_password_hint"
+        form:form_layout="@layout/ccp_form_input_pwd_view"
+     />
+    <!-- android:background="@drawable/video_blue_button_selector" -->
+
+    <Button
+        android:id="@+id/experience_login_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dip"
+        android:text="@string/login_login"
+         android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/login_button_selector" />
+
+   <!--  <TextView
+        android:id="@+id/forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="12dip"
+        android:singleLine="true"
+        android:text="忘记密码"
+        android:textColor="@color/white" /> -->
+
+</LinearLayout>

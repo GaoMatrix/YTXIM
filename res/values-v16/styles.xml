@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+   Copyright (c) 2013 The CCP project authors. All Rights Reserved.
+ 
+   Use of this source code is governed by a Beijing Speedtong Information Technology Co.,Ltd license
+   that can be found in the LICENSE file in the root of the web site.
+ 
+    				http://www.yuntongxun.com
+ 
+   An additional intellectual property rights grant can be found
+   in the file PATENTS.  All contributing project authors may
+   be found in the AUTHORS file in the root of the source tree.
+ -->
+<resources>
+<style name="BaseTextViewStyle" parent="@*android:style/Widget.TextView">
+        <item name="android:fontFamily">@string/miui_font_family</item>
+    </style>
+    <style name="BaseButtonStyle" parent="@*android:style/Widget.Button">
+        <item name="android:fontFamily">@string/miui_font_family</item>
+    </style>
+    <style name="BaseEditTextStyle" parent="@*android:style/Widget.EditText">
+        <item name="android:fontFamily">@string/miui_font_family</item>
+    </style>
+    <style name="BaseCheckBoxStyle" parent="@*android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:fontFamily">@string/miui_font_family</item>
+    </style>
+    <style name="BaseRadioButtonStyle" parent="@*android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@string/miui_font_family</item>
+    </style>
+    <style name="BaseToggleButtonStyle" parent="@*android:style/Widget.Button.Toggle">
+        <item name="android:fontFamily">@string/miui_font_family</item>
+    </style>
+    <style name="BaseAutoCompleteTextViewStyle" parent="@*android:style/Widget.AutoCompleteTextView">
+        <item name="android:fontFamily">@string/miui_font_family</item>
+    </style>
+</resources>

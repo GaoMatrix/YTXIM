@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+   Copyright (c) 2013 The CCP project authors. All Rights Reserved.
+ 
+   Use of this source code is governed by a Beijing Speedtong Information Technology Co.,Ltd license
+   that can be found in the LICENSE file in the root of the web site.
+ 
+    				http://www.yuntongxun.com
+ 
+   An additional intellectual property rights grant can be found
+   in the file PATENTS.  All contributing project authors may
+   be found in the AUTHORS file in the root of the source tree.
+ -->
+<resources>
+
+    <!-- Default height of an action bar. -->
+    <dimen name="abc_action_bar_default_height">56dip</dimen>
+    <!-- Vertical padding around action bar icons. -->
+    <dimen name="abc_action_bar_icon_vertical_padding">4dip</dimen>
+    <!-- Text size for action bar titles -->
+    <dimen name="abc_action_bar_title_text_size">18dp</dimen>
+    <!-- Text size for action bar subtitles -->
+    <dimen name="abc_action_bar_subtitle_text_size">14dp</dimen>
+    <!-- Top margin for action bar subtitles -->
+    <dimen name="abc_action_bar_subtitle_top_margin">-3dp</dimen>
+    <!-- Bottom margin for action bar subtitles -->
+    <dimen name="abc_action_bar_subtitle_bottom_margin">9dip</dimen>
+    <!-- Minimum width for an action button in the menu area of an action bar -->
+    <dimen name="abc_action_button_min_width">64dip</dimen>
+
+    <!-- Minimum width of the search view text entry area. -->
+    <dimen name="abc_search_view_text_min_width">192dip</dimen>
+</resources>

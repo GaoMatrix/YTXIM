@@ -1,0 +1,3 @@
+YTX_PHONE_DEMO_Android_4.0.0.2r
+1、修复第一次登陆获取群组程序异常退出
+2、优化SDK

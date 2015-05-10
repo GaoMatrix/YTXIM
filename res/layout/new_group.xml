@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+   Copyright (c) 2013 The CCP project authors. All Rights Reserved.
+ 
+   Use of this source code is governed by a Beijing Speedtong Information Technology Co.,Ltd license
+   that can be found in the LICENSE file in the root of the web site.
+ 
+    				http://www.yuntongxun.com
+ 
+   An additional intellectual property rights grant can be found
+   in the file PATENTS.  All contributing project authors may
+   be found in the AUTHORS file in the root of the source tree.
+ -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/CCPScroll"
+    android:background="@color/navpage"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        style="@style/CCPBody"
+        android:paddingTop="10.0dip" >
+
+        <com.speedtong.example.common.base.CCPClearEditText
+            android:id="@+id/group_name"
+            style="@style/CCPLineEditText"
+            android:layout_marginTop="@dimen/NormalPadding"
+            android:background="@drawable/edittext_bg_selector"
+            android:hint="@string/str_group_name_hint"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </com.speedtong.example.common.base.CCPClearEditText>
+
+        <com.speedtong.example.common.base.CCPClearEditText
+            android:id="@+id/group_notice"
+            style="@style/CCPLineEditText"
+            android:layout_marginTop="@dimen/NormalPadding"
+            android:background="@drawable/edittext_bg_selector"
+            android:hint="@string/str_group_notice_hint"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip" />
+
+        <Button
+            android:id="@+id/create"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/registration_btn"
+            android:shadowColor="#ff000000"
+            android:shadowDx="1.2"
+            android:shadowDy="1.2"
+            android:shadowRadius="1.0"
+            android:text="@string/app_button_create"
+            android:textColor="@color/login_btn_text"
+            android:textSize="@dimen/TitleTextSize" />
+    </LinearLayout>
+
+</ScrollView>
